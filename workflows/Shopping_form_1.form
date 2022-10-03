@@ -1,0 +1,52 @@
+{
+  "components": [
+    {
+      "text": "# Awesome Shop",
+      "type": "text",
+      "id": "Field_03j878b"
+    },
+    {
+      "values": [
+        {
+          "label": "Awesome Book",
+          "value": "Awesome_Book"
+        },
+        {
+          "label": "Cool Book",
+          "value": "Cool_Book"
+        }
+      ],
+      "label": "Items",
+      "type": "select",
+      "id": "Field_1xwytii",
+      "key": "field_item"
+    },
+    {
+      "label": "Quantity",
+      "type": "number",
+      "id": "Field_1s3nmo0",
+      "key": "field_quantity",
+      "defaultValue": 0,
+      "validate": {
+        "min": 0,
+        "max": 3
+      }
+    },
+    {
+      "action": "submit",
+      "label": "Buy",
+      "type": "button",
+      "id": "Field_01l5uot",
+      "key": "field_1xgyqwu"
+    }
+  ],
+  "type": "default",
+  "id": "ShoppingForm",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.2.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.17.0",
+  "schemaVersion": 4
+}

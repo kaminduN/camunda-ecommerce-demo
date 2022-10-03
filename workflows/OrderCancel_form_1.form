@@ -1,0 +1,31 @@
+{
+  "components": [
+    {
+      "text": "# Order Status Page",
+      "type": "text",
+      "id": "Field_0a4wuu4"
+    },
+    {
+      "label": "Item",
+      "type": "textfield",
+      "id": "Field_0vetide",
+      "key": "field_item"
+    },
+    {
+      "action": "submit",
+      "label": "Cancel Order",
+      "type": "button",
+      "id": "Field_0mlpraz",
+      "key": "field_10ojti5"
+    }
+  ],
+  "type": "default",
+  "id": "Form_orderCancel",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.2.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.17.0",
+  "schemaVersion": 4
+}

@@ -1,0 +1,33 @@
+{
+  "components": [
+    {
+      "text": "# Order approve",
+      "type": "text",
+      "id": "Field_14rfnzs"
+    },
+    {
+      "label": "Item",
+      "type": "textfield",
+      "id": "Field_0nz8326",
+      "key": "ordered_item",
+      "disabled": true,
+      "defaultValue": "-"
+    },
+    {
+      "action": "submit",
+      "label": "Approve",
+      "type": "button",
+      "id": "Field_0rux0if",
+      "key": "field_1ysysfw"
+    }
+  ],
+  "type": "default",
+  "id": "ShopOrderApproveForm",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.2.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.17.0",
+  "schemaVersion": 4
+}

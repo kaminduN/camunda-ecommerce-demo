@@ -1,0 +1,33 @@
+{
+  "components": [
+    {
+      "label": "Amount",
+      "type": "textfield",
+      "id": "Field_00jqv79",
+      "key": "field_amount",
+      "defaultValue": "0",
+      "validate": {
+        "required": true,
+        "minLength": 0,
+        "maxLength": 5
+      },
+      "properties": {}
+    },
+    {
+      "action": "submit",
+      "label": "Pay",
+      "type": "button",
+      "id": "Field_0ovdqwx",
+      "key": "field_1ncuyer"
+    }
+  ],
+  "type": "default",
+  "id": "ShopPaymentForm",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.2.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.17.0",
+  "schemaVersion": 4
+}
