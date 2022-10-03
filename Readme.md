@@ -31,9 +31,9 @@ mvn clean package spring-boot:run
 
 - Customer
 
-!['Customer process workflow']('/docs/images/customer-process.png')
+!['Customer process workflow'](/docs/images/customer-process.png)
 
 
 - Shop 
 
-!['Customer process workflow']('/docs/images/shop-process.png')
+!['Customer process workflow'](/docs/images/shop-process.png)
