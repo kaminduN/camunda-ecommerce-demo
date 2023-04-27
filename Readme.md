@@ -22,6 +22,8 @@ mvn clean package
 
 To run application at http://localhost:8080 execute:
 
+To Access manuda embed app: http://localhost:8080/camunda/app/welcome/
+
 ```bash
 mvn clean package spring-boot:run
 ```
