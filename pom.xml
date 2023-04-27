@@ -14,7 +14,8 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<camunda.spring-boot.version>7.17.0</camunda.spring-boot.version>
-		<spring-boot.version>2.6.6</spring-boot.version>
+		<spring-boot.version>2.7.4</spring-boot.version>
+		<graalvm.version>22.3.0</graalvm.version>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
@@ -67,6 +68,29 @@
 			<version>5.8.2</version>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- 
+			to continue using nashorn use the following dependency
+		<dependency>
+			<groupId>org.openjdk.nashorn</groupId>
+			<artifactId>nashorn-core</artifactId>
+			<version>15.1</version>
+		</dependency> -->
+
+
+		<!-- GraalVM JavaScript Engine -->
+		<dependency>
+			<groupId>org.graalvm.js</groupId>
+			<artifactId>js</artifactId>
+			<version>${graalvm.version}</version>
+		</dependency>
+		<!-- GraalVM JavaScript ScriptEngine -->
+		<dependency>
+			<groupId>org.graalvm.js</groupId>
+			<artifactId>js-scriptengine</artifactId>
+			<version>${graalvm.version}</version>
+		</dependency>
+
 	</dependencies>
 
 
@@ -75,6 +99,7 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<version>2.7.4</version>
 			</plugin>
 		</plugins>
 
